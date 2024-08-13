@@ -44,3 +44,39 @@ Controller (Response prepared)
       |
       v
 Client (Response received)
+
+
+
+
+### Auth Service
+
+crud-api/
+│
+├── auth/
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   └── otpController.js
+│   │
+│   ├── models/
+│   │   ├── authModel.js
+│   │   └── otpModel.js
+│   │
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   └── otpRoutes.js
+│   │
+│   ├── services/
+│   │   ├── jwtService.js
+│   │   ├── otpService.js
+│   │   └── sessionService.js
+│   │
+│   └── middlewares/
+│       ├── authMiddleware.js
+│       └── otpMiddleware.js
+│
+├── config/
+│   └── db.js
+│
+├── app.js
+├── package.json
+└── .env
